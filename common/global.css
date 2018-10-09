@@ -63,10 +63,9 @@ nav ul {
     height: 100%;
     list-style-type: none;
     margin: 0 auto;
-    vertical-align: middle;
 }
 
-nav li {
+nav ul li {
     height: 100%;
     font-size: 18px;
     display: inline;
