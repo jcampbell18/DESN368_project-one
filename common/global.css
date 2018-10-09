@@ -1,6 +1,4 @@
-html {
-
-}
+/****** BODY *****/
 
 body {
     font-family: Arial, Tahoma, sans-serif;
@@ -9,69 +7,71 @@ body {
     background-color: #191925;
 }
 
+
 /***** HEADER *****/
 header {
     width: 100%;
     margin: 0 auto;
 }
 
+#header-image-container {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
 h1 {
-    font-size: 120px;
+    font-size: 100px;
     font-family: 'Shadows Into Light', cursive;
     color: #ffffff;
     background-color: inherit;
     position: absolute;
-    top: 3%;
-    right: 5%;
+    top: 2%;
+    right: 7%;
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 26px;
     color: #3c2432;
     background-color: inherit;
     position: absolute;
-    top: 6%;
+    top: 8%;
     right: 25%;
 }
 
 header img {
+    max-width: 95%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /*position: absolute;*/
 }
 
-#header-image-container {
-    width: 100%;
-    position: relative;
-}
 
 /***** NAV *****/
 nav {
+    /*position: fixed;  <--- USE LATER!  TOP? */
     width: 100%;
     height: 50px;
     background-color: #ccdaf5;
     color: #000000;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: middle;
+    display: block;   
+    margin: 0 auto;
 }
 
 nav ul {
     width: 75%;
-    height: 100%;
+    height: 48px;
     list-style-type: none;
     margin: 0 auto;
+    border: 1px solid black;
 }
 
-nav ul li {
-    height: 100%;
+nav li {
     font-size: 18px;
     display: inline;
     padding-left: 5%;
     padding-right: 5%;
-    vertical-align: middle;
+    border: 1px solid red;
 }
 
 nav a {
@@ -92,6 +92,7 @@ nav a:hover {
     color: inherit;
     font-weight: bold;
 }
+
 
 /***** MAIN *****/
 main {
