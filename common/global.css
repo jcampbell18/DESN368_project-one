@@ -1,13 +1,12 @@
 /***** BASIC TAGS *****/
 body {
     font-family: Arial, Tahoma, sans-serif;
-    width: 100%;
+    width: 98%;
     height: 100%;
     background-color: #191925;
 }
 
 h1 {
-    /*font-size: 750%;*/
     font-size: 120px;
     font-family: 'Shadows Into Light', cursive;
     color: #ffffff;
@@ -15,20 +14,14 @@ h1 {
     padding: 0;
     margin: 0;
     position: absolute;
-    /*top: 3%;
-    right: 5%;*/
 }
 
 h2 {
-    /*font-size: 200%;*/
     font-size: 32px;
     color: #3c2432;
     background-color: inherit;
     padding: 0;
     margin: 0;
-    /*position: absolute;
-    top: 6%;
-    right: 25%;*/
 }
 
 h3 {
@@ -115,7 +108,7 @@ nav a:link {
 }
 
 nav a:hover {
-    background-color: inherit; /*#2b3767;*/
+    background-color: inherit;
     color: inherit;
     font-weight: bold;
     text-decoration: underline;
