@@ -44,6 +44,19 @@ p {
     padding: 0 28px 14px 14px;
 }
 
+a {
+    background-color: inherit;
+    color: inherit;
+}
+
+a:active, a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    
+}
+
 
 /***** HEADER *****/
 header {
@@ -81,7 +94,6 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    vertical-align: middle;
     position: relative;
 }
 
@@ -99,19 +111,6 @@ nav li {
     font-size: 18px;
     align-self: center;
     text-align: center;
-}
-
-nav a {
-    background-color: inherit;
-    color: inherit;
-}
-
-nav a:active {
-    text-decoration: none;
-}
-
-nav a:link {
-    text-decoration: none;
 }
 
 nav a:hover {
@@ -141,19 +140,6 @@ section li {
     padding: 0 28px 14px 14px;
 }
 
-section a {
-    background-color: inherit;
-    color: inherit;
-}
-
-section a:active {
-    text-decoration: none;
-}
-
-section a:link {
-    text-decoration: none;
-}
-
 section a:hover {
     background-color: inherit;
     color: inherit;
@@ -179,7 +165,6 @@ footer {
     background-color: #191925;
     color: #ffffff;
     margin: 0 auto;
-
 }
 
 footer ul {
