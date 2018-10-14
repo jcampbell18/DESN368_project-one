@@ -129,6 +129,7 @@ section {
     background-color: #ffffff;
     color: inherit;
     padding: 0 14px 0 14px;
+    border-radius: 5px;
 }
 
 section li {
