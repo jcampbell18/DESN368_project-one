@@ -43,10 +43,6 @@ h3 {
     margin: 10px 0 0 0;
 }
 
-p {
-    padding: 0 28px 14px 14px;
-}
-
 a {
     background-color: inherit;
     color: inherit;
@@ -104,6 +100,7 @@ nav {
 }
 
 nav ul {
+    height: 100%;
     list-style-type: none;
     margin: 0 auto;
     display: flex;
@@ -121,8 +118,6 @@ nav li {
 /***** MAIN *****/
 main {
     width: 95%;
-    background-color: #191925;
-    color: #000000;
     margin: 0 auto;
 }
 
@@ -133,7 +128,7 @@ section {
     border-radius: 5px;
 }
 
-section li {
+section li, p {
     padding: 0 28px 14px 14px;
 }
 
