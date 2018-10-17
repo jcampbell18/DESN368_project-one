@@ -9,7 +9,7 @@ body {
     font-size: 16px;
     width: 100%;
     height: 100%;
-    background-color: #191925;
+    background-image: linear-gradient(#3c2432, #191925);
     color: #000000;
     margin: 0 auto;
     padding: 0;
@@ -147,7 +147,7 @@ footer {
     width: 100%;
     height: 35px;
     position: relative;
-    background-color: #191925;
+    background-color: inherit;
     color: #ffffff;
     margin: 0 auto;
 }
